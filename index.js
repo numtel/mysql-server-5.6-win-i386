@@ -41,7 +41,7 @@ module.exports = function(config) {
   fs.writeFileSync('server/my.cnf', myCnf);
 
   // Did not work spawning mysqld directly from node, therefore shell script
-  var child = spawn('server/start.sh');
+  var child = spawn('server/start.bat');
   
   // Server pid is different than the spawned child pid becuase of shell script
   // Provide extra method on child process to stop the server

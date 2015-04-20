@@ -1,14 +1,14 @@
 {
-  "name": "mysql-server-5.6-linux-x64",
+  "name": "mysql-server-5.6-win-i386",
   "version": "5.6.24",
-  "description": "MySQL Server 5.6 for Linux x86 64-bit",
+  "description": "MySQL Server 5.6 for Windows x86 32-bit",
   "author": "Ben Green <ben@latenightsketches.com> (https://numtel.github.io)",
   "license": "GPLv2",
   "os": [
-    "linux"
+    "win32"
   ],
   "cpu": [
-    "x64"
+    "ia32"
   ],
   "keywords": [
     "mysql",
@@ -16,7 +16,7 @@
     "binary",
     "log"
   ],
-  "repository": "https://github.com/numtel/mysql-server-5.6-linux-x64.git",
+  "repository": "https://github.com/numtel/mysql-server-5.6-win-i386.git",
   "scripts": {
     "test": "PORT=3358 nodeunit test/index.js"
   },
